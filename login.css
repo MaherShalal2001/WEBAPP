@@ -1,0 +1,200 @@
+/* logo-side */
+.logo-side{
+  background-color: tomato;
+  height: 937px;
+}
+.login-side{
+  background-image: url("logins.png");
+  height: 937px;
+}
+.company-name{
+  color: white;
+  text-align: center;
+  margin-top: -90px;
+  font-family: 'Righteous', cursive;
+  letter-spacing: 10px;
+}
+.form{
+  /* padding:0 200px; */
+  margin-top: 100px;
+}
+.sign-word{
+  text-align: center;
+  margin-top: 200px;
+  font-family: 'Acme', sans-serif;
+  margin-bottom: 30px;
+}
+.container{
+  margin-top:60px;
+  margin-left: 100px;
+}
+.form-control:focus{
+  border-bottom: 3px solid tomato !important;
+  box-shadow: none !important;
+}
+input[type=text]{
+  width: 50%;
+  border: none;
+  border-bottom: 2px solid tomato;
+  background: none;
+}
+input[type=email]{
+  width: 50%;
+    border: none;
+  border-bottom: 2px solid tomato;
+  background: none;
+}
+input[type=text]:focus{
+  outline: none;
+  border: none;
+}
+input[type=password]{
+  width: 50%;
+    border: none;
+  border-bottom: 2px solid tomato;
+  background: none;
+}
+@media only screen and (max-width: 600px){
+  input[type=text],input[type=email],input[type=password]{
+    width: 100%;
+  }
+}
+.btn-lo{
+  width: 150px;
+  height: 50px;
+  border-width: 2px;
+  border-color: tomato;
+  border-radius: 10px;
+  background: none;
+  font-size: 22px;
+  font-family: 'Balsamiq Sans', cursive; 
+  cursor: pointer;
+}
+.btn-lo:hover{
+ background-color: tomato;
+ color: white;
+}
+.btn-lo:focus{
+   outline: none;
+  outline-style: none;
+}
+.sign-up{
+  width: 60%;
+  padding: 10px 10px;
+  margin-top: 10px;
+  display: inline-block;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  background: #DA4453;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #89216B, #DA4453);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #89216B, #DA4453); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  cursor: pointer;
+  color: white;
+}
+.sign-up:hover{
+  background: #DA4453;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #89216B, #DA4453);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #89216B, #DA4453); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.sign-up:focus{
+  outline: none;
+    background: #ad5389;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #3c1053, #ad5389);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari */
+}
+.sign-gogle{
+  width: 60%;
+  padding: 10px 10px;
+  margin-top: 10px;
+  display: inline-block;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  background: #eb2f06;
+  cursor: pointer;
+  color: white;
+}
+.sign-gogle:hover{
+opacity: 90%;
+}
+.sign-gogle:focus{
+  outline: none;
+}
+.sign-fb{
+  width: 60%;
+  padding: 10px 10px;
+  margin-top: 10px;
+  display: inline-block;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  background: #1e3799;
+  cursor: pointer;
+  color: white;
+}
+.sign-fb:hover{
+ opacity: 90%;
+}
+.sign-fb:focus{
+ outline: none;
+}
+.or-sign{
+  padding-top: 10px;
+}
+.or{
+  font-family: 'Anton', sans-serif;
+}
+ @media only screen and (max-width: 600px) {
+    .logo-side{
+      height: 100%;
+      background-size: cover;
+    }
+    .company-name{
+  padding-top: 20px;
+}
+  }
+
+.myform{
+  padding: 50px;
+}
+
+#message {
+  display: none;
+  color: #000;
+  width: 50%;
+  position: relative;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 30px;
+  text-align: center;
+}
+
+#message p {
+  padding-left: 2px;
+  margin: auto 20px;
+  font-size: 10px;
+ font-family: 'Heebo', sans-serif;
+}
+
+/* Add a green text color and a checkmark when the requirements are right */
+.valid {
+  color: green;
+}
+
+.valid:before {
+  position: relative;
+  left: -35px;
+  content: "✔";
+}
+
+/* Add a red text color and an "x" when the requirements are wrong */
+.invalid {
+  color: red;
+}
+
+.invalid:before {
+  position: relative;
+  left: -35px;
+  content: "✖";
+}
